@@ -35,6 +35,7 @@
                         <li><a class="link " href="">HOME</a></li>
                         <li><a class="link " href="">EVENTS</a></li>
                         <li><a class="link " href="">FEED</a></li>
+                        <li><a class="link " href="">USER NAME</a></li>
                         <li><button class="navbtn">Log Out</button></li>
                         
 
@@ -145,14 +146,16 @@
             </div>
         </div>
     </header>
-    <section>
+    <section class="my-80">
         
             <div class="container w-100">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-lg-6 col-12">
                         <!-- <div class=" overflow "> -->
                             <div class="position-relative">
-                            <img class="w-100 mt-40" src="./assest/image/Microsoft Surface Hub (1).png" alt="Microsoft Surface Hub (1).">
+                                <div class="d-flex align-items-center justify-content-center">
+                            <img class=" mt-40 w-100" src="./assest/image/MicrosoftSurface-Hub(1).png" alt="MicrosoftSurface-Hub(1).png.">
+                        </div>
                             <div class="position-abso cursor-pointer">
                             <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="39.6018" cy="40.1824" r="37.9517" stroke="white" stroke-width="3.30015"/>
@@ -164,7 +167,7 @@
                         <!-- </div> -->
                     </div>
                     <div class="col-lg-6 col-12 mb-60">
-                        <h1 class="heading2"><span class="underline-2">What make</span> us special ?</h1>
+                        <h1 class="heading2 mt-35"><span class="underline-2">What make</span> us special ?</h1>
                         <p class="my-para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna
                             in
                             dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae
@@ -366,7 +369,7 @@
                     <div class="card3 ">
                         <div class="p-3">
                             <div class="position-relative cursor-pointer">
-                            <img class="w-100" src="./assest/image/Rectangle 31.png" alt="Rectangle 31.png">
+                            <img class="w-100" src="./assest/image/Rectangle-31.png" alt="Rectangle-31.png">
                             <div class="position-abso2">
                             <svg width="56" height="24" viewBox="0 0 56 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M55.0607 13.0607C55.6465 12.4749 55.6465 11.5251 55.0607 10.9393L45.5147 1.39339C44.9289 0.807608 43.9792 0.807608 43.3934 1.39339C42.8076 1.97918 42.8076 2.92893 43.3934 3.51472L51.8787 12L43.3934 20.4853C42.8076 21.0711 42.8076 22.0208 43.3934 22.6066C43.9792 23.1924 44.9289 23.1924 45.5147 22.6066L55.0607 13.0607ZM1.31134e-07 13.5L54 13.5L54 10.5L-1.31134e-07 10.5L1.31134e-07 13.5Z" fill="white"/>
@@ -382,29 +385,32 @@
                     </div>
                 </div>
             </div>
+            </div>
     </section>
     <section class="mb-100">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-md-12">
-                    <img src="./assest/image/Vector.png" alt="Vector.png">
-                </div>
-                <div class="col-xl-6 col-md-12">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <!-- <div class="d-flex align-items-center justify-content-center"> -->
+                    <img class="w-100 " src="./assest/image/Vector.png" alt="Vector.png">
+                <!-- </div> -->
+            </div>
+                <div class="col-lg-6 col-md-12">
                     <h4 class="text-6 mt-30"><span class="underline-4">Join Us</span> !</h4>
                     <p class="my-para5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in
                         dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue </p>
                     <h4 class="text-6">Sign Up</h4>
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
-                            <input type="text" id="first name" placeholder="First Name" class="forms">
+                            <input type="text" id="firstname" placeholder="First Name" class="forms">
 
                         </div>
                         <div class="col-md-6 col-sm-12">
-                            <input type="text" id="last name" placeholder="Last Name" class="forms">
+                            <input type="text" id="lastname" placeholder="Last Name" class="forms">
 
                         </div>
                         <div class="col-md-12">
-                            <input type="text" id="Email address" placeholder="Email address" class="forms">
+                            <input type="text" id="Emailaddress" placeholder="Email address" class="forms">
 
                         </div>
                         <div class="col-md-6 col-sm-12">
@@ -412,11 +418,11 @@
 
                         </div>
                         <div class="col-md-6 col-sm-12">
-                            <input type="password" id=" Confirm Password" placeholder=" Confirm Password" class="forms">
+                            <input type="password" id="ConfirmPassword" placeholder="Confirm Password" class="forms">
 
                         </div>
                         <div class="col-md-12">
-                            <textarea name="About Me" id="About Me" cols="30" rows="10" placeholder="About Me"
+                            <textarea name="About Me" id="AboutMe" cols="30" rows="10" placeholder="About Me"
                                 class="forms resize"> </textarea>
                         </div>
                         <div class=" class= btn-box d-flex align-items-center justify-content-center w-100">
@@ -481,11 +487,13 @@
                         </ul>
                         </div>
                         <div class="col-lg-3 col-md-6 mt-20 ">
+                            <ul>
                             <li class="link-2 ">EVENTS</li>
                             <li><a class="l-text" href="">ullamcorper</a> </li>
                             <li><a class="l-text" href="">ullamcorper</a> </li>
                             <li><a class="l-text" href="">ullamcorper</a>  </li>
                             <li> <a class="l-text" href="">ullamcorper</a> </li>
+                        </ul>
                         </div>
 
 
@@ -501,7 +509,7 @@
                                 </div>
                                 
                                 <div class="col-4 ">
-                                    <p><img class="w-100 cursor-pointer"src="./assest/image/projector-screen.png" alt="projector-screen.png"></p>
+                                    <p><img class="w-100 cursor-pointer" src="./assest/image/projector-screen.png" alt="projector-screen.png"></p>
                                 </div>
                                 <div class="col-4">
                                     <img class="w-100 cursor-pointer" src="./assest/image/people-water.png" alt="people-water.png">
